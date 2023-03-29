@@ -70,7 +70,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 4rem;
+  height: 3.5rem;
 }
 
 #header img {
@@ -96,7 +96,8 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: var(--bg-blue-light-global);
+  background: url('../assets/bg_lp.jpg');
+  background-position: 60%;
   height: 10rem;
 }
 
@@ -121,6 +122,16 @@ main {
   background: var(--gray-500);
 }
 
+#cards button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 .card {
   display: flex;
   align-items: center;
@@ -136,6 +147,10 @@ main {
   width: 17rem;
   border: solid 0.16rem;
   text-align: center;
+}
+
+.card:hover {
+  border-color: var(--gray-100);
 }
 
 .green {
