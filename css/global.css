@@ -50,6 +50,10 @@ button {
     height: auto;
     width: 100%;
   }
+
+  #logo img {
+    margin-bottom: 2rem;
+  }
 }
 
 header {
@@ -96,8 +100,6 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background: url('../assets/bg_lp.jpg');
-  background-position: 60%;
   height: 10rem;
 }
 
@@ -106,6 +108,16 @@ header {
   font-weight: 700;
   padding-left: 0.3rem;
   text-align: center;
+}
+
+.landing {
+  background: url('../assets/bg_lp.jpg');
+  background-position: 60%;
+}
+
+.bgresources {
+  background: url('../assets/bg_pedagogicos.jpg');
+  background-position: 80% 30%;
 }
 
 main {
@@ -153,6 +165,11 @@ main {
   border-color: var(--gray-100);
 }
 
+.resource {
+  height: 12rem;
+  width: 18rem;
+}
+
 .green {
   border-color: #d0e070;
 }
@@ -167,7 +184,7 @@ main {
 .card img {
   height: 5rem;
   width: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .card h1 {
