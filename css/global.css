@@ -169,7 +169,7 @@ main {
   font-weight: 300;
 }
 
-.collapsible:not(.collapsible:last-child) {
+.collapsible {
   background: var(--gray-300);
   color: white;
   cursor: pointer;
@@ -190,11 +190,16 @@ main {
 }
 
 .content {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   display: none;
   overflow: hidden;
   background-color: var(--gray-100);
   color: var(--gray-800);
+  border-bottom: 1.5px solid var(--gray-700);
+}
+
+.content p {
+  margin: 0.5rem 0 0 0;
 }
 
 #faq {
