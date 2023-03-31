@@ -110,7 +110,7 @@ header {
   flex-direction: row;
   align-items: center;
   background: var(--gray-100);
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 1rem 1rem;
   max-width: 38rem;
   min-height: 12rem;
   margin-bottom: 1.5rem;
@@ -213,8 +213,6 @@ header {
   font-size: 1.2rem;
   font-weight: 500;
   border-left: 1px solid var(--gray-100);
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 #tutoriais > h1 {
