@@ -358,12 +358,6 @@ footer {
     min-width: 20rem;
   }
 
-  #cont .examples {
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-  }
-
   .examples article {
     display: flex;
     flex-direction: column;
