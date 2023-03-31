@@ -213,6 +213,8 @@ header {
   font-size: 1.2rem;
   font-weight: 500;
   border-left: 1px solid var(--gray-100);
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #tutoriais > h1 {
@@ -420,6 +422,15 @@ footer {
     margin: 0;
     max-height: 4rem;
     max-width: 4rem;
+  }
+
+  .description h1 {
+    text-align: center;
+  }
+
+  .description p {
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   footer {
