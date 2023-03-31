@@ -406,7 +406,7 @@ footer {
   }
 
   .white-screen {
-    max-width: 20rem;
+    max-width: 19rem;
     height: auto;
     display: flex;
     flex-direction: column;
