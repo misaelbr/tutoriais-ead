@@ -103,6 +103,15 @@ header {
   background-position: 80% 30%;
 }
 
+.bgguidelines {
+  background: url('../assets/bg_visuais.jpg');
+  background-position: 80% 30%;
+}
+
+.bgconfigs {
+  background: url('../assets/bg_parametros.jpg');
+  background-position: 80% 30%;
+}
 main {
   flex: 1;
   background-color: var(--gray-400);
