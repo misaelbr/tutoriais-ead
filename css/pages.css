@@ -283,7 +283,7 @@ header {
 }
 
 .card:first-child {
-  border-right: 2px solid var(--gray-100);
+  border-right: 2px solid var(--white);
   margin: 0 0 0 -0.2rem;
 }
 
