@@ -283,7 +283,7 @@ footer {
   width: auto;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 976px) {
   #faq {
     max-width: 100%;
   }
