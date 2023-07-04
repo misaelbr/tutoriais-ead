@@ -115,27 +115,29 @@
                     <h1>Como incluir em uma disciplina/módulo?</h1>
                     <div id="cards">
                         <article class="card">
-                            <button>
-                                <span>
-                                    <img src="assets/icons/video-player.png" alt="Passo a passo em vídeo" />
-                                </span>
-                                <h1>Em breve</h1>
-                            </button>
-                        </article>
-                        <article class="card">
-                            <form>
+                            <form id="video">
                                 <button type="submit">
                                     <span>
-                                        <img src="assets/icons/application.png" />
+                                        <img src="assets/icons/video-player.png" alt="Passo a passo em vídeo" />
                                     </span>
-                                    <h1>Passo a passo em texto</h1>
+                                    <h1>Passo a passo em vídeo</h1>
                                 </button>
                             </form>
+                        </article>
+                        <article class="card">
+                            <button
+                                onclick="window.open('https://drive.google.com/file/d/1eY0TkQKcC6m1octi4pE6lydUWQtiM4Yc/view?usp=sharing', '_blank')">
+                                <span>
+                                    <img src="assets/icons/application.png" />
+                                </span>
+                                <h1>Passo a passo em texto</h1>
+                            </button>
+
                         </article>
                     </div>
                 </div>
             </div>
-            <div id="step" class="modal">
+            <div id="step-text" class="modal">
                 <p class="notice">
                     Atenção!
                 </p>
@@ -145,7 +147,29 @@
                 <p class="message">
                     Uso como material complementar em cursos de graduação presencial: em breve.
                 </p>
+            </div>
+            <div id="step-video" class="modal">
+                <p class="notice">
+                    Vídeos
+                </p>
+                <p class="message">
+                    <strong>Apresentação:</strong>
+                    <br />
+                    <a href="https://youtu.be/3erIEcIRHls" target="_blank">Cursos de Graduação EAD</a>
+                    <br />
+                    <a href="https://youtu.be/3deZFNXNmpc" target="_blank">Cursos Presenciais (Graduação, Pós,
+                        Extensão)</a>
 
+                </p>
+                <p class="message">
+                    <strong>Tutoriais:</strong>
+                    <br />
+                    <a href="https://youtu.be/2cRvRfKvuGY" target="_blank">Como incluir UAs nas disciplinas sem edição
+                        adicional</a>
+                    <br />
+                    <a href="https://youtu.be/VFGCjBpGRY0" target="_blank">Como editar UAs e incluí-las nas
+                        disciplinas</a>
+                </p>
             </div>
         </main>
         <footer>

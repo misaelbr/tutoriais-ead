@@ -6,8 +6,12 @@
  */
 
 $(document).ready(function () {
-    $('form').submit(function (event) {
+    $('#text').submit(function (event) {
         event.preventDefault();
-        $('#step').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
+        $('#step-text').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
+    });
+    $('#video').submit(function (event) {
+        event.preventDefault();
+        $('#step-video').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
     });
 });
