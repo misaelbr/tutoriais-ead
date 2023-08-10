@@ -1,90 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Cache-control" content="no-store" />
-    <link rel="icon" href="assets/favicon.ico" />
+<head>
+  <meta charset="utf-8" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/global.css" />
-    <script src="scripts/index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-control" content="no-store" />
+  <link rel="icon" href="assets/favicon.ico" />
 
-    <title>
-      Tutoriais Moodle: Recursos visuais - UNISC - Assessoria para Educação a
-      Distância -
-    </title>
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <div id="header">
-          <a href="index.html" alt="Página Incial"
-            ><img src="assets/logoead.png" alt="logo"
-          /></a>
-          <h1>Tutoriais</h1>
-        </div>
-        <div id="banner" class="bgguidelines">
-          <h1>Recursos Visuais</h1>
-        </div>
-      </header>
-      <main>
-        <div id="cards">
-          <button
-            type="button"
-            onclick="window.open('guideline-label.html', '_self')"
-          >
-            <article class="card resource green">
-              <img src="assets/tag.png" alt="Logs" />
-              <h1>Rótulo</h1>
-            </article>
-          </button>
-          <button
-            type="button"
-            onclick="window.open('https://docs.google.com/presentation/d/1SJBsflEpbboKVhxbEfdgyjFlE3eMp-bo_wvyV7yLxOE/template/preview', '_blank')"
-          >
-            <article class="card resource green">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/modal.css" />
+
+  <title>
+    Tutoriais Moodle: Recursos visuais - UNISC - Assessoria para Educação a
+    Distância -
+  </title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="header">
+        <a href="index.html" alt="Página Incial"><img src="assets/logoead.png" alt="logo" /></a>
+        <h1>Tutoriais</h1>
+      </div>
+      <div id="banner" class="bgguidelines">
+        <h1>Recursos Visuais</h1>
+      </div>
+    </header>
+    <main>
+      <div id="cards">
+        <button type="button" onclick="window.open('guideline-label.html', '_self')">
+          <article class="card resource green">
+            <img src="assets/tag.png" alt="Logs" />
+            <h1>Rótulo</h1>
+          </article>
+        </button>
+        <article class="card resource green">
+          <form id="block">
+            <button type="submit">
               <img src="assets/blocos.png" alt="Logs" />
               <h1>Modelos: Bloco</h1>
-            </article>
-          </button>
-          <button
-            type="button"
-            onclick="window.open('https://docs.google.com/presentation/d/1NYXkcLmegsZ56Ey1I3Y7fnqNgKMynw5M4Z8v5Qc1Rgk/template/preview', '_blank')"
-          >
-            <article class="card resource green">
+            </button>
+          </form>
+        </article>
+        <article class="card resource green">
+          <form id="banner-moodle">
+            <button type="submit">
               <img src="assets/banner.png" alt="Logs" />
               <h1>Modelos: Banner</h1>
-            </article>
-          </button>
-        </div>
-      </main>
-      <footer>
-        <div id="contacts">
-          <h1>Suporte EAD</h1>
-          <p>
-            E-mail:
-            <a href="mailto:suporte-ead@unisc.br">suporte-ead@unisc.br</a>
-          </p>
-          <p>
-            Telefone/WhatsApp:
-            <a
-              href="https://api.whatsapp.com/send?phone=555137177664"
-              target="_blank>"
-              >(51) 3717-7664</a
-            >
-          </p>
-        </div>
-        <div id="logo">
-          <img src="assets/logo_unisc.png" alt="logo" />
-        </div>
-      </footer>
-    </div>
-  </body>
+            </button>
+          </form>
+        </article>
+      </div>
+      <div id="block-content" class="modal">
+        <p class="notice">
+          Atenção!
+        </p>
+        <p class="message">
+          <strong>Modelos de blocos:</strong>
+          <br />
+          <a href="https://docs.google.com/presentation/d/1SJBsflEpbboKVhxbEfdgyjFlE3eMp-bo_wvyV7yLxOE/template/preview"
+            target="_blank">
+            Graduação e Pós-Graduação
+          </a>
+          <br />
+          <a href="https://docs.google.com/presentation/d/1naE1P7CfXd4p-WwvSf6DF-UMwpKJKIR6RUOPCcnR_Zw/template/preview"
+            target="_blank">
+            Cursos Técnicos do CEPRU
+          </a>
+        </p>
+      </div>
+      <div id="banner-moodle-content" class="modal">
+        <p class="notice">
+          Atenção!
+        </p>
+        <p class="message">
+          <strong>Modelos de banner:</strong>
+          <br />
+          <a href="https://docs.google.com/presentation/d/1NYXkcLmegsZ56Ey1I3Y7fnqNgKMynw5M4Z8v5Qc1Rgk/template/preview"
+            target="_blank">
+            Graduação e Pós-Graduação
+          </a>
+          <br />
+          <a href="https://docs.google.com/presentation/d/1561rvT9tT2WEDn5Sjknh8MbEtM2Q2eQ9j9izEijQPQI/template/preview"
+            target="_blank">
+            Cursos Técnicos do CEPRU
+          </a>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div id="contacts">
+        <h1>Suporte EAD</h1>
+        <p>
+          E-mail:
+          <a href="mailto:suporte-ead@unisc.br">suporte-ead@unisc.br</a>
+        </p>
+        <p>
+          Telefone/WhatsApp:
+          <a href="https://api.whatsapp.com/send?phone=555137177664" target="_blank>">(51) 3717-7664</a>
+        </p>
+      </div>
+      <div id="logo">
+        <img src="assets/logo_unisc.png" alt="logo" />
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>

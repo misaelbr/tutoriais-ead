@@ -14,4 +14,12 @@ $(document).ready(function () {
         event.preventDefault();
         $('#step-video').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
     });
+    $('#block').submit(function (event) {
+        event.preventDefault();
+        $('#block-content').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
+    });
+    $('#banner-moodle').submit(function (event) {
+        event.preventDefault();
+        $('#banner-moodle-content').modal({ fadeDuration: 500, fadeDelay: 1, closeClass: 'icon-remove' });
+    });
 });
