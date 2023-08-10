@@ -13,7 +13,11 @@
   --gray-700: #29292e;
   --gray-800: #202024;
   --gray-900: #121214;
+  --salmon: #f67b72;
+  --blue-pool: #8fb8aa;
+  --yellow: #f7d05b;
 }
+
 
 * {
   margin: 0;
