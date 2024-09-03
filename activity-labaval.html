@@ -1,138 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Cache-control" content="no-store" />
-    <link rel="icon" href="assets/favicon.ico" />
+<head>
+  <meta charset="utf-8" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FJ6NEQG0VF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/pages.css" />
-    <script src="scripts/index.js"></script>
+    gtag('config', 'G-FJ6NEQG0VF');
+  </script>
 
-    <title>
-      Tutoriais Moodle: Laboratório de Avaliação - UNISC - Assessoria para Educação a Distância
-    </title>
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <div id="header">
-          <a href="index.html" alt="Página Incial"
-            ><img src="assets/logoead.png" alt="logo"
-          /></a>
-          <h1>Tutoriais</h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-control" content="no-store" />
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Signika+Negative:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <script src="scripts/index.js"></script>
+
+  <title>
+    Tutoriais Moodle: Laboratório de Avaliação - UNISC - Assessoria para Educação a Distância
+  </title>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <div id="header">
+        <a href="index.html" alt="Página Incial"><img src="assets/logoead.png" alt="logo" /></a>
+        <h1>Tutoriais</h1>
+      </div>
+      <div id="banner">
+        <div class="roll"></div>
+        <div class="white-screen">
+          <div class="tool">
+            <img src="assets/group.png" alt="banner" />
+          </div>
+          <div class="description">
+            <h1>Laboratório de Avaliação</h1>
+            <p>
+              É uma ferramenta que permite a avaliação de trabalhos por parte dos estudantes,
+              enviados pelos mesmos ou por colegas.
+            </p>
+          </div>
         </div>
-        <div id="banner">
-          <div class="roll"></div>
-          <div class="white-screen">
-            <div class="tool">
-              <img src="assets/group.png" alt="banner" />
-            </div>
-            <div class="description">
-              <h1>Laboratório de Avaliação</h1>
+      </div>
+    </header>
+    <main>
+      <div id="content">
+        <h1>
+          Do ponto de vista pedagógico, como a ferramenta pode ser utilizada?
+        </h1>
+        <div class="examples">
+          <article>
+            <span class="example">
+              <img src="assets/icons/exam.png" />
               <p>
-                É uma ferramenta que permite a avaliação de trabalhos por parte dos estudantes, 
-                enviados pelos mesmos ou por colegas.
+                O professor deve definir os aspectos a serem avaliados e
+                atribuir pesos a cada aspecto.
               </p>
-            </div>
+            </span>
+          </article>
+          <article>
+            <span class="example">
+              <img src="assets/icons/application.png" />
+              <p>
+                O professor também pode fornecer documentos como exemplo
+                para que os alunos procedam à avaliação.
+              </p>
+            </span>
+          </article>
+          <article>
+            <span class="example">
+              <img src="assets/icons/assignment_group.png" />
+              <p>
+                Após configurar o laboatório, o estudante receberá um trabalho vinculado a ele,
+                onde terá que ler, avaliar e dar uma nota, como se fosse o professor da turma.
+              </p>
+            </span>
+          </article>
+          <article>
+            <span class="example">
+              <img src="assets/icons/ferramentas.png" />
+              <p>
+                Cabe ao professor revisar as avaliações, fazer correções e/ou fornecer feedbacks,
+                caso julgue necessário.
+              </p>
+            </span>
+          </article>
+        </div>
+        <div id="tutoriais">
+          <h1>Como incluir em uma disciplina/módulo?</h1>
+          <div id="cards">
+            <article class="card">
+              <button>
+                <span>
+                  <img src="assets/icons/video-player.png" alt="Passo a passo em vídeo" />
+                </span>
+                <h1>Passo a Passo em Vídeo (Em breve)</h1>
+              </button>
+            </article>
+            <article class="card">
+              <button
+                onclick="window.open('https://drive.google.com/file/d/1WuMBK32whA4GoVi7EmJhxQ3LVPqfbekt/view?usp=drive_link', '_blank')">
+                <span>
+                  <img src="assets/icons/application.png" />
+                </span>
+                <h1>Passo a passo em texto</h1>
+              </button>
+            </article>
           </div>
         </div>
-      </header>
-      <main>
-        <div id="content">
-          <h1>
-            Do ponto de vista pedagógico, como a ferramenta pode ser utilizada?
-          </h1>
-          <div class="examples">
-            <article>
-              <span class="example">
-                <img src="assets/icons/exam.png" />
-                <p>
-                  O professor deve definir os aspectos a serem avaliados e 
-                  atribuir pesos a cada aspecto.
-                </p>
-              </span>
-            </article>
-            <article>
-              <span class="example">
-                <img src="assets/icons/application.png" />
-                <p>
-                  O professor também pode fornecer documentos como exemplo 
-                  para que os alunos procedam à avaliação.
-                </p>
-              </span>
-            </article>
-            <article>
-              <span class="example">
-                <img src="assets/icons/assignment_group.png" />
-                <p>
-                  Após configurar o laboatório, o estudante receberá um trabalho vinculado a ele,
-                  onde terá que ler, avaliar e dar uma nota, como se fosse o professor da turma.
-                </p>
-              </span>
-            </article>
-            <article>
-              <span class="example">
-                <img src="assets/icons/ferramentas.png" />
-                <p>
-                  Cabe ao professor revisar as avaliações, fazer correções e/ou fornecer feedbacks, 
-                  caso julgue necessário.
-                </p>
-              </span>
-            </article>
-          </div>
-          <div id="tutoriais">
-            <h1>Como incluir em uma disciplina/módulo?</h1>
-            <div id="cards">
-              <article class="card">
-                <button>
-                    <span>
-                        <img src="assets/icons/video-player.png" alt="Passo a passo em vídeo" />
-                    </span>
-                    <h1>Passo a Passo em Vídeo (Em breve)</h1>
-                </button>
-            </article>
-              <article class="card">
-                <button
-                  onclick="window.open('https://drive.google.com/file/d/1WuMBK32whA4GoVi7EmJhxQ3LVPqfbekt/view?usp=drive_link', '_blank')"
-                >
-                  <span>
-                    <img src="assets/icons/application.png" />
-                  </span>
-                  <h1>Passo a passo em texto</h1>
-                </button>
-              </article>
-            </div>
-          </div>
-        </div>
-      </main>
-      <footer>
-        <div id="contacts">
-          <h1>Suporte EAD</h1>
-          <p>
-            E-mail:
-            <a href="mailto:suporte-ead@unisc.br">suporte-ead@unisc.br</a>
-          </p>
-          <p>
-            Telefone/WhatsApp:
-            <a
-              href="https://api.whatsapp.com/send?phone=555137177664"
-              target="_blank>"
-              >(51) 3717-7664</a
-            >
-          </p>
-        </div>
-        <div id="logo">
-          <img src="assets/logo_unisc.png" alt="logo" />
-        </div>
-      </footer>
-    </div>
-  </body>
+      </div>
+    </main>
+    <footer>
+      <div id="contacts">
+        <h1>Suporte EAD</h1>
+        <p>
+          E-mail:
+          <a href="mailto:suporte-ead@unisc.br">suporte-ead@unisc.br</a>
+        </p>
+        <p>
+          Telefone/WhatsApp:
+          <a href="https://api.whatsapp.com/send?phone=555137177664" target="_blank>">(51) 3717-7664</a>
+        </p>
+      </div>
+      <div id="logo">
+        <img src="assets/logo_unisc.png" alt="logo" />
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
